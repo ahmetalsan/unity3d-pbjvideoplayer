@@ -6,9 +6,9 @@
 ### Features
 - [x] plays local media or streams remote media over HTTP
 
-###
+### How To Use
 
-- You can download and use plugin: raw.github.com/ahmetalsan/unity3d-pbjvideoplayer-plugin/blob/master/pbjvideoplayerplugin.unitypackage
+- You can download and use plugin: http://raw.github.com/ahmetalsan/unity3d-pbjvideoplayer-plugin/blob/master/pbjvideoplayerplugin.unitypackage
 
 ## Resources
 
