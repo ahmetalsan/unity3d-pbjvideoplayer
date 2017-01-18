@@ -6,6 +6,10 @@
 ### Features
 - [x] plays local media or streams remote media over HTTP
 
+###
+
+- You can download and use plugin: raw.github.com/ahmetalsan/unity3d-pbjvideoplayer-plugin/blob/master/pbjvideoplayerplugin.unitypackage
+
 ## Resources
 
 * [AV Foundation Programming Guide](https://developer.apple.com/library/ios/documentation/AudioVideo/Conceptual/AVFoundationPG/Articles/00_Introduction.html)
