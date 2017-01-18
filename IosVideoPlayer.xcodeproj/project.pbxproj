@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		683315501DF42C1400F7DF8E /* PBJVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6833154D1DF42C1400F7DF8E /* PBJVideoPlayerController.m */; };
+		683315511DF42C1400F7DF8E /* PBJVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6833154F1DF42C1400F7DF8E /* PBJVideoView.m */; };
+		688566011E2CD52400B120D3 /* VideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 688566001E2CD52400B120D3 /* VideoController.m */; };
+		68F613971DF4298F00A610DD /* IosVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F613961DF4298F00A610DD /* IosVideoPlayer.m */; };
+		68F613981DF4298F00A610DD /* IosVideoPlayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 68F613951DF4298F00A610DD /* IosVideoPlayer.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		68F613901DF4298F00A610DD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				68F613981DF4298F00A610DD /* IosVideoPlayer.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6833154B1DF42C1400F7DF8E /* PBJVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBJVideoPlayer.h; sourceTree = "<group>"; };
+		6833154C1DF42C1400F7DF8E /* PBJVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBJVideoPlayerController.h; sourceTree = "<group>"; };
+		6833154D1DF42C1400F7DF8E /* PBJVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBJVideoPlayerController.m; sourceTree = "<group>"; };
+		6833154E1DF42C1400F7DF8E /* PBJVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBJVideoView.h; sourceTree = "<group>"; };
+		6833154F1DF42C1400F7DF8E /* PBJVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBJVideoView.m; sourceTree = "<group>"; };
+		688565FF1E2CD52400B120D3 /* VideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoController.h; sourceTree = "<group>"; };
+		688566001E2CD52400B120D3 /* VideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoController.m; sourceTree = "<group>"; };
+		68F613921DF4298F00A610DD /* libIosVideoPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIosVideoPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		68F613951DF4298F00A610DD /* IosVideoPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IosVideoPlayer.h; sourceTree = "<group>"; };
+		68F613961DF4298F00A610DD /* IosVideoPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IosVideoPlayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68F6138F1DF4298F00A610DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68F613891DF4298F00A610DD = {
+			isa = PBXGroup;
+			children = (
+				68F613941DF4298F00A610DD /* IosVideoPlayer */,
+				68F613931DF4298F00A610DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68F613931DF4298F00A610DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68F613921DF4298F00A610DD /* libIosVideoPlayer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68F613941DF4298F00A610DD /* IosVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				68F613951DF4298F00A610DD /* IosVideoPlayer.h */,
+				68F613961DF4298F00A610DD /* IosVideoPlayer.m */,
+				688565FF1E2CD52400B120D3 /* VideoController.h */,
+				688566001E2CD52400B120D3 /* VideoController.m */,
+				6833154B1DF42C1400F7DF8E /* PBJVideoPlayer.h */,
+				6833154C1DF42C1400F7DF8E /* PBJVideoPlayerController.h */,
+				6833154D1DF42C1400F7DF8E /* PBJVideoPlayerController.m */,
+				6833154E1DF42C1400F7DF8E /* PBJVideoView.h */,
+				6833154F1DF42C1400F7DF8E /* PBJVideoView.m */,
+			);
+			name = IosVideoPlayer;
+			path = CoreVideoPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68F613911DF4298F00A610DD /* IosVideoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68F6139B1DF4298F00A610DD /* Build configuration list for PBXNativeTarget "IosVideoPlayer" */;
+			buildPhases = (
+				68F6138E1DF4298F00A610DD /* Sources */,
+				68F6138F1DF4298F00A610DD /* Frameworks */,
+				68F613901DF4298F00A610DD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IosVideoPlayer;
+			productName = CoreVideoPlayer;
+			productReference = 68F613921DF4298F00A610DD /* libIosVideoPlayer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68F6138A1DF4298F00A610DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = veoss;
+				TargetAttributes = {
+					68F613911DF4298F00A610DD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = E38T4MV29T;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 68F6138D1DF4298F00A610DD /* Build configuration list for PBXProject "IosVideoPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 68F613891DF4298F00A610DD;
+			productRefGroup = 68F613931DF4298F00A610DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68F613911DF4298F00A610DD /* IosVideoPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68F6138E1DF4298F00A610DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F613971DF4298F00A610DD /* IosVideoPlayer.m in Sources */,
+				683315501DF42C1400F7DF8E /* PBJVideoPlayerController.m in Sources */,
+				683315511DF42C1400F7DF8E /* PBJVideoView.m in Sources */,
+				688566011E2CD52400B120D3 /* VideoController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		68F613991DF4298F00A610DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68F6139A1DF4298F00A610DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68F6139C1DF4298F00A610DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = E38T4MV29T;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		68F6139D1DF4298F00A610DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = E38T4MV29T;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68F6138D1DF4298F00A610DD /* Build configuration list for PBXProject "IosVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68F613991DF4298F00A610DD /* Debug */,
+				68F6139A1DF4298F00A610DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68F6139B1DF4298F00A610DD /* Build configuration list for PBXNativeTarget "IosVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68F6139C1DF4298F00A610DD /* Debug */,
+				68F6139D1DF4298F00A610DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68F6138A1DF4298F00A610DD /* Project object */;
+}
